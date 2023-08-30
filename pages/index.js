@@ -22,7 +22,7 @@ export default function Home() {
         />
         <NavCard
           title="Learn"
-          description="Learn about Next.js in an interactive course with quizzes!"
+          description="Learn more about Next.js in an interactive course with quizzes!"
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
         />
         <NavCard
