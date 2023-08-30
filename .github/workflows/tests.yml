@@ -16,6 +16,9 @@ jobs:
       
       - name: Lint code
         run: npm run lint
+        
+      - name: Format code
+        run: npm run prettier
 
       - name: Build project assets
         run: npm run build
