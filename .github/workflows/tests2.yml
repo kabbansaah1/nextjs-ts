@@ -40,7 +40,7 @@ jobs:
 
     - name: Deploy to AWS
       run: |
-        cd terraform/environments/${{ github.head_ref }}
+        cd terraform/${{ github.head_ref }}
         terraform init
         terraform apply -auto-approve
       env:
